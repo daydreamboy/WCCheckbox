@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'WCCheckbox_Example', :exclusive => true do
+  pod 'WCCheckbox', :path => '../'
+end
+
+target 'WCCheckbox_Tests', :exclusive => true do
+  pod 'WCCheckbox', :path => '../'
+
+  
+end
