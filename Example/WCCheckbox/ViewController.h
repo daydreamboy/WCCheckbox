@@ -6,8 +6,8 @@
 //  Copyright (c) 2016 wesley_chen. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
-@interface WCViewController : UIViewController
+@interface ViewController : UIViewController
 
 @end

@@ -6,9 +6,9 @@
 //  Copyright (c) 2016 wesley_chen. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
-@interface WCAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

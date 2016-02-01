@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		083AEA4D852BF981AE5418C5 /* Pods_WCCheckbox_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D04BABD572811E3D93E8EF0 /* Pods_WCCheckbox_Example.framework */; };
-		257176ABD1862EC9D84DE16D /* Pods_WCCheckbox_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFBD698720233F08AEA093F /* Pods_WCCheckbox_Tests.framework */; };
+		2B4917451C5B100100E19961 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4917441C5B100100E19961 /* Launch Screen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* WCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* WCAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* WCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* WCViewController.m */; };
+		6003F59E195388D20070C39A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* AppDelegate.m */; };
+		6003F5A7195388D20070C39A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		91D24DD6325FC764C3DB53AF /* libPods-WCCheckbox_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BD599AACD6068CC7B94D01 /* libPods-WCCheckbox_Example.a */; };
+		9BA151908F2F364A9ECB5333 /* libPods-WCCheckbox_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD23546ED54F61BBB6151B0 /* libPods-WCCheckbox_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,7 @@
 /* Begin PBXFileReference section */
 		05B34B85F7970FBB6601A6F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		085E36708ADA0A82CB4737A8 /* Pods-WCCheckbox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCCheckbox_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WCCheckbox_Example/Pods-WCCheckbox_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2D04BABD572811E3D93E8EF0 /* Pods_WCCheckbox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCCheckbox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CFBD698720233F08AEA093F /* Pods_WCCheckbox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCCheckbox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4917441C5B100100E19961 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WCCheckbox_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCCheckbox_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,10 +47,10 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* WCCheckbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WCCheckbox-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* WCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* WCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* WCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* WCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* WCCheckbox_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCCheckbox_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,11 +59,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6C4DC8847B5D617F2FACC331 /* Pods-WCCheckbox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCCheckbox_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WCCheckbox_Tests/Pods-WCCheckbox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8B6A93B92E69513E7C1DBA6D /* Pods-WCCheckbox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCCheckbox_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WCCheckbox_Tests/Pods-WCCheckbox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4EF3A4723542A8A982EBBDA /* Pods-WCCheckbox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCCheckbox_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WCCheckbox_Example/Pods-WCCheckbox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B9BD599AACD6068CC7B94D01 /* libPods-WCCheckbox_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WCCheckbox_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB418C0065B9DD62B044AE01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D6C364FECCFD1F12DB7A4063 /* WCCheckbox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WCCheckbox.podspec; path = ../WCCheckbox.podspec; sourceTree = "<group>"; };
+		DDD23546ED54F61BBB6151B0 /* libPods-WCCheckbox_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WCCheckbox_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				083AEA4D852BF981AE5418C5 /* Pods_WCCheckbox_Example.framework in Frameworks */,
+				91D24DD6325FC764C3DB53AF /* libPods-WCCheckbox_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				257176ABD1862EC9D84DE16D /* Pods_WCCheckbox_Tests.framework in Frameworks */,
+				9BA151908F2F364A9ECB5333 /* libPods-WCCheckbox_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +132,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				2D04BABD572811E3D93E8EF0 /* Pods_WCCheckbox_Example.framework */,
-				4CFBD698720233F08AEA093F /* Pods_WCCheckbox_Tests.framework */,
+				B9BD599AACD6068CC7B94D01 /* libPods-WCCheckbox_Example.a */,
+				DDD23546ED54F61BBB6151B0 /* libPods-WCCheckbox_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,11 +141,10 @@
 		6003F593195388D20070C39A /* Example for WCCheckbox */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* WCAppDelegate.h */,
-				6003F59D195388D20070C39A /* WCAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* WCViewController.h */,
-				6003F5A6195388D20070C39A /* WCViewController.m */,
+				6003F59C195388D20070C39A /* AppDelegate.h */,
+				6003F59D195388D20070C39A /* AppDelegate.m */,
+				6003F5A5195388D20070C39A /* ViewController.h */,
+				6003F5A6195388D20070C39A /* ViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -156,6 +155,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B4917441C5B100100E19961 /* Launch Screen.storyboard */,
 				6003F595195388D20070C39A /* WCCheckbox-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -276,7 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				2B4917451C5B100100E19961 /* Launch Screen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -390,8 +390,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* WCAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* WCViewController.m in Sources */,
+				6003F59E195388D20070C39A /* AppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* ViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
